@@ -37,9 +37,13 @@ int main(int argc, char* argv[]) {
     output << ");" << endl;
     auto buf2(buf);
     int ii;
-    for(ii = 0; ii < buf2.size(); ii ++)
-      if(0xff < ++ buf2[ii]) buf2[ii] = 0;
-      else break;
+    for(ii = 0; ii < buf2.size(); ii ++) {
+      if(buf2[ii] == 0xff) ++ buf2[ii];
+      else {
+        ++ buf2[ii];
+        break;
+      }
+    }
     if(ii < buf2.size())
       for(int i = 0; i < buf2.size(); i ++)
         std::cout << tbl[(buf2[i] >> 4) & 0x0f] << tbl[buf2[i] & 0x0f];
