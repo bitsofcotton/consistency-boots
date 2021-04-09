@@ -1,5 +1,5 @@
 # consistency-boots
-Check if running device accepts invalid op codes that isn't defined on setting file in userland.
+Test op codes and returns it's ok or not.
 
 # Description
 Find some tirivial backdoor on the machine, but, this isn't better find complex ones such like
