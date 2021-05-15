@@ -3,13 +3,19 @@
 #include <stdlib.h>
 #include <sys/syscall.h>
 #include <unistd.h>
+#include <assert.h>
+
+void execTest(void) {
+  return;
+}
 
 int main(int argc, char* argv[]) {
   if(argc < 2) return - 1;
   std::cout << std::atoi(argv[1]) << std::endl;
   int b;
   char* bb;
-  const int len(8);
+  const int len(std::atoi(argv[2]));
+  char  exectest[len];
   switch(std::atoi(argv[1])) {
   case 0:
     std::cout << ".text" << std::endl;
@@ -28,10 +34,9 @@ int main(int argc, char* argv[]) {
     break;
   case 3:
     std::cout << "heap" << std::endl;
-#define HEAPL 60
-    bb = (char*)malloc(HEAPL);
+    bb = (char*)malloc(len);
     for(int64_t i = 0; i < len; i ++)
-      bb[HEAPL + i] = 0x90;
+      bb[len + i] = 0x90;
     free(bb);
     break;
   case 4:
@@ -55,6 +60,26 @@ int main(int argc, char* argv[]) {
     std::cout << "read libc" << std::endl;
     for(int64_t i = 0; i < len; i ++)
       std::cout << *(char*)((uint64_t)(void*)syscall + i) << std::endl;
+    break;
+  case 8:
+    std::cout << "execution stack" << std::endl;
+    for(int64_t i = 0; i < len; i ++)
+      exectest[i] = *(char*)((uint64_t)(void*)execTest + i);
+    {
+      void (*et)(void) = (void (*)(void))(void*)&exectest;
+      et();
+    }
+    break;
+  case 9:
+    std::cout << "execution heap" << std::endl;
+    bb = (char*)malloc(len);
+    for(int64_t i = 0; i < len; i ++)
+      bb[i] = *(char*)((uint64_t)(void*)execTest + i);
+    {
+      void (*et)(void) = (void (*)(void))(void*)&exectest;
+      et();
+    }
+    free(bb);
     break;
   default:
     assert(0 && "no such method.");
