@@ -3,12 +3,10 @@ Test op codes and returns it's ok or not.
 
 # Description
 Find some tirivial backdoor on the machine, but, this isn't better find complex ones such like
-around memory cache nor chained operations, nor worst case, adopted nor intruded system.
+around memory cache, chained operations, process coherency, op code that handles some jmp,
+mal-op codes that not behaves as documented ones, nor worst case, adopted nor intruded system.
 
 prot.cc is for 64bit system.
-
-# prot.cc
-There's lack of execution test on heap or stack.
 
 # things undone.
 A ring0 tester is undone. There's many much cpu operation modes on amd64.
