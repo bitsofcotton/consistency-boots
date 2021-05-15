@@ -7,8 +7,8 @@ around memory cache nor chained operations, nor worst case, adopted nor intruded
 
 prot.cc is for 64bit system.
 
-# on specific device
-Is ring0 tester needed? There's many much cpu operation modes on amd64.
+# things undone.
+A ring0 tester is undone. There's many much cpu operation modes on amd64.
 
 # Tips
 This can causes floating point operation on the cpu to be broken because of some internal state
