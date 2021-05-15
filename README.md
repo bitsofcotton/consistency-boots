@@ -7,6 +7,9 @@ around memory cache nor chained operations, nor worst case, adopted nor intruded
 
 prot.cc is for 64bit system.
 
+# prot.cc
+There's lack of execution test on heap or stack.
+
 # things undone.
 A ring0 tester is undone. There's many much cpu operation modes on amd64.
 
