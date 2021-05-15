@@ -9,7 +9,8 @@ mal-op codes that not behaves as documented ones, nor worst case, adopted nor in
 prot.cc is for 64bit system.
 
 # things undone.
-A ring0 tester is undone. There's many much cpu operation modes on amd64.
+A ring0 tester is undone. There's many much cpu operation modes,
+and ring minus ... operation modes in firmwares on amd64.
 
 # Tips
 This can causes floating point operation on the cpu to be broken because of some internal state
