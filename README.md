@@ -12,6 +12,9 @@ prot.cc is for 64bit system.
 A ring0 tester is undone. There's many much cpu operation modes,
 and ring minus ... operation modes in firmwares on amd64.
 
+# things undone (2)
+Opcode they behaves not as documented one backdoor test is undone.
+
 # Tips
 This can causes floating point operation on the cpu to be broken because of some internal state
 that to be permanent change. (Tested with one of ryzen processor, the float operation to be broken
