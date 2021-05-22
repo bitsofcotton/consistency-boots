@@ -41,11 +41,7 @@ Searched with google, there's some cases to use PCI BIOS nor system management b
 
 # Tips on system and compiler binaries
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
-We cannot avoid compiler condition nor system condition, if one of them is infected,
-(i)  compiler case : there's a compiling compiler also infected case studies on unix history in login
-password authentication.
-(iI) system case : if the system touches the binary and doesn't show the data as well, there's also
-the one we have and compiled ones we have are infected.
+If both of them are infected, it might be game over.
 
 But only one of them is infected, if the system binary case, using virtual machines to compile
 binaries on trusted system images and write to whole hdd sectors could vanish the system infections,
