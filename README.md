@@ -24,3 +24,6 @@ unexpected permanent result. So other CPUs can be.)
 We trust the computer if they don't cheat datas nor calculations nor priviledges etcetc.
 To trust them, we test CPU first, then, storage and memory second.
 This is one of a trivial CPU tester.
+
+# Tips
+However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
