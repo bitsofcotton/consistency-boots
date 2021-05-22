@@ -33,7 +33,7 @@ and storage returns dummies, the storage binary dumper is needed. So this cannot
 by softwares because the hardware returns dummies in such case.
 
 # Tips on firmwares
-
+If there's a malware on the firmwares, we cannot find that without glitches if CPU is not the matter.
 
 # Tips on system and compiler binaries
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
@@ -42,3 +42,5 @@ We cannot avoid compiler condition nor system condition, if one of them is infec
 password authentication.
 (iI) system case : if the system touches the binary and doesn't show the data as well, there's also
 the one we have and compiled ones we have are infected.
+
+# Tips on CPUs
