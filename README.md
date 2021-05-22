@@ -27,7 +27,8 @@ This is one of a trivial CPU tester.
 
 # Tips
 If only the storage is infected, we can count on a size and viewing raw binaries nor compiling
-from source codes can reduce the infection.
+from source codes can reduce the infection if CPUs has no special infectable mnemonic set nor
+system.
 
 # Tips
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
