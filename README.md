@@ -49,7 +49,7 @@ the one we have and compiled ones we have are infected.
 
 But only one of them is infected, if the system binary case, using virtual machines to compile
 binaries on trusted system images and write to whole hdd sectors could vanish the system infections,
-but if the system guards such regions, we cannot.
+but if the system guards such regions, we cannot because they behaves like a fixed firmware.
 
 Only compiler is infected conditions, using unknown compiler source and trampoline clean sources
 could vanish the compiler infections.
