@@ -20,12 +20,10 @@ This can causes floating point operation on the cpu to be broken because of some
 that to be permanent change. (Tested with one of ryzen processor, the float operation to be broken
 unexpected permanent result. So other CPUs can be.)
 
-# Tips
-We trust the computer if they don't cheat datas nor calculations nor priviledges etcetc.
-To trust them, we test CPU first, then, storage and memory second.
-This is one of a trivial CPU tester.
+# Tips on memory
+If only the memory is infected, some calculations nor datas to be broken if PIE with randomized.
 
-# Tips
+# Tips on storage
 If only the storage is infected, we can count on a size and viewing raw binaries nor compiling
 from source codes can reduce the infection if CPUs has no special infectable mnemonic set nor
 system. But in the worst case, if the CPU has such things and boot sectors could be infected
