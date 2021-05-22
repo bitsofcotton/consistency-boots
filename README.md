@@ -28,7 +28,9 @@ This is one of a trivial CPU tester.
 # Tips
 If only the storage is infected, we can count on a size and viewing raw binaries nor compiling
 from source codes can reduce the infection if CPUs has no special infectable mnemonic set nor
-system.
+system. But in the worst case, if the CPU has such things and boot sectors could be infected
+and storage returns dummies, the storage binary dumper is needed. So this cannot be implemented
+by softwares because the hardware returns dummies in such case.
 
 # Tips
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
