@@ -27,3 +27,8 @@ This is one of a trivial CPU tester.
 
 # Tips
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
+We cannot avoid compiler condition nor system condition, if one of them is infected,
+(i)  compiler case : there's a compiling compiler also infected case studies on unix history in login
+password authentication.
+(iI) system case : if the system touches the binary and doesn't show the data as well, there's also
+the one we have and compiled ones we have are infected.
