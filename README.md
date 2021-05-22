@@ -22,6 +22,8 @@ unexpected permanent result. So other CPUs can be.)
 
 # Tips on memory
 If only the memory is infected, some calculations nor datas to be broken if PIE with randomized.
+But in the worst case, some base systems boot loaders are listed, adoptive infections returns
+some code inserted into the CPU.
 
 # Tips on storage
 If only the storage is infected, we can count on a size and viewing raw binaries nor compiling
