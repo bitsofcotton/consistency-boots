@@ -53,6 +53,7 @@ but if the system guards such regions, we cannot because they behaves like a fix
 CPU don't have priviledge glitches.
 
 Only compiler is infected conditions, using unknown compiler source and trampoline clean sources
-could vanish the compiler infections.
+could vanish the compiler infections. Nor, if the compiler themselves is simple enough,
+we could read whole compiler assemblies with virtual machine condition.
 
 # Tips on CPUs
