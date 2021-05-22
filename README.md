@@ -37,7 +37,7 @@ If there's a malware on the firmwares, we cannot find that without glitches if C
 
 # Tips on buses
 The system must trust the connected buses to r/w memory on most x86 computers.
-Searched with google, there's some cases to use PCI BIOS to infect the computer.
+Searched with google, there's some cases to use PCI BIOS nor system management bios to infect the computer.
 
 # Tips on system and compiler binaries
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
