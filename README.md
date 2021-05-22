@@ -41,9 +41,8 @@ Searched with google, there's some cases to use PCI BIOS nor system management b
 
 # Tips on system and compiler binaries
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
-If both of them are infected, it might be game over.
 
-But only one of them is infected, if the system binary case, using virtual machines to compile
+If the system binary case, using virtual machines to compile
 binaries on trusted system images and write to whole hdd sectors could vanish the system infections,
 but if the system guards such regions, we cannot because they behaves like a fixed firmware if
 CPU don't have priviledge glitches.
@@ -51,3 +50,6 @@ CPU don't have priviledge glitches.
 Only compiler is infected conditions, using unknown compiler source and trampoline clean sources
 could vanish the compiler infections. Nor, if the compiler themselves is simple enough,
 we could read whole compiler assemblies with virtual machine condition.
+
+If the both case, with virtual machine simplified compiler condition, reconstruct whole system
+including bootstrap on the infected computer causes some clean results.
