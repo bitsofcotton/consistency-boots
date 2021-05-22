@@ -35,6 +35,9 @@ by softwares because the hardware returns dummies in such case.
 # Tips on firmwares
 If there's a malware on the firmwares, we cannot find that without glitches if CPU is not the matter.
 
+# Tips on buses
+The system must trust the connected buses to r/w memory on most x86 computers.
+
 # Tips on system and compiler binaries
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
 We cannot avoid compiler condition nor system condition, if one of them is infected,
