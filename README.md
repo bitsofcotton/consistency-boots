@@ -26,6 +26,10 @@ To trust them, we test CPU first, then, storage and memory second.
 This is one of a trivial CPU tester.
 
 # Tips
+If only the storage is infected, we can count on a size and viewing raw binaries nor compiling
+from source codes can reduce the infection.
+
+# Tips
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
 We cannot avoid compiler condition nor system condition, if one of them is infected,
 (i)  compiler case : there's a compiling compiler also infected case studies on unix history in login
