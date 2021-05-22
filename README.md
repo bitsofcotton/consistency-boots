@@ -33,7 +33,7 @@ and storage returns dummies, the storage binary dumper is needed. So this cannot
 by softwares because the hardware returns dummies in such case.
 
 # Tips on firmwares
-If there's a malware on the firmwares, we cannot find that without glitches if CPU is not the matter.
+If there's a malware on the firmwares, we cannot find that without glitches if CPU had crafted.
 
 # Tips on buses
 The system must trust the connected buses to r/w memory on most x86 computers.
