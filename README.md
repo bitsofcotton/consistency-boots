@@ -2,7 +2,7 @@
 Test op codes and returns it's ok or not.
 
 # Description
-Find some tirivial backdoor on the machine, but, this isn't better find complex ones such like
+Find some tirivial backdoor on the machine, but, this is NOT better find complex ones such like
 around memory cache, chained operations, process coherency, op code that handles some jmp,
 mal-op codes that not behaves as documented ones, nor worst case, adopted nor intruded system.
 
