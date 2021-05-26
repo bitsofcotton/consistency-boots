@@ -31,13 +31,15 @@ from source codes can reduce the infection if CPUs has no special infectable mne
 system. But in the worst case, if the CPU has such things and boot sectors could be infected
 and storage returns dummies, the storage binary dumper is needed. So this cannot be implemented
 by softwares because the hardware returns dummies in such case.
+Nor, only for userland, if we can encrypt whole disk on the system, the infections are reduced.
 
 # Tips on firmwares
-If there's a malware on the firmwares, we cannot find that without glitches if CPU had crafted.
+If there's a malware on the firmwares, we cannot find that without glitches if CPU had crafted ones.
 
 # Tips on buses
 The system must trust the connected buses to r/w memory on most x86 computers.
 Searched with google, there's some cases to use PCI BIOS nor system management bios to infect the computer.
+With modern amd64, they have DMA firewalls, I don't know whether can we trust them or not.
 
 # Tips on system and compiler binaries
 However, if the system nor compiler is infected, there's also unveiled backdoors on the computer.
@@ -55,3 +57,6 @@ If the both case, with virtual machine simplified compiler condition, reconstruc
 including bootstrap on the infected computer causes some clean results. But if they've seen by
 big brother and they implement adopted infection into them, also virtual machine is infected.
 But in such case, we might observe them by calculation speed extremely slow down.
+
+So with compilers on qemu base system on qemu base system might reduce some, but if both are infected, it's not optimistic.
+
