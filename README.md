@@ -65,5 +65,8 @@ big brother and they implement adopted infection into them, also virtual machine
 But in such case, we might observe them by calculation speed extremely slow down
 (if we use the harden to be read source codes nor compiling options).
 
+But the infection modifies only some targetted structures with recursive resistences,
+it's not optimistic, but, if we harden the algorithms to resist with them, it's ok.
+
 So with compilers on qemu base system on qemu base system might reduce some, but if both are infected, it's not optimistic.
 
