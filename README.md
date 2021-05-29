@@ -63,7 +63,7 @@ If the both case, with virtual machine simplified compiler condition, reconstruc
 including bootstrap on the infected computer causes some clean results. But if they've seen by
 big brother and they implement adopted infection into them, also virtual machine is infected.
 But in such case, we might observe them by calculation speed extremely slow down
-(if we use the harden to be read algorithm).
+(if we use the harden to be read source codes nor compiling options).
 
 So with compilers on qemu base system on qemu base system might reduce some, but if both are infected, it's not optimistic.
 
