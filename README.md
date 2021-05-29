@@ -67,7 +67,8 @@ But in such case, we might observe them by calculation speed extremely slow down
 
 But the infection modifies only some targetted structures with recursive resistences,
 it's not optimistic, but, if we harden the algorithms to resist with them, they causes
-running time not to be linear increase.
+running time not to be linear increase, but with targetted structure maximum resistence
+size polynomial order.
 
 So with compilers on qemu base system on qemu base system might reduce some, but if both are infected, it's not optimistic.
 
