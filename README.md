@@ -62,7 +62,8 @@ we could read whole compiler assemblies with virtual machine condition.
 If the both case, with virtual machine simplified compiler condition, reconstruct whole system
 including bootstrap on the infected computer causes some clean results. But if they've seen by
 big brother and they implement adopted infection into them, also virtual machine is infected.
-But in such case, we might observe them by calculation speed extremely slow down.
+But in such case, we might observe them by calculation speed extremely slow down
+(if we use the harden to be read algorithm).
 
 So with compilers on qemu base system on qemu base system might reduce some, but if both are infected, it's not optimistic.
 
