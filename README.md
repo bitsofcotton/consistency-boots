@@ -14,6 +14,7 @@ and ring minus ... operation modes in firmwares on amd64.
 
 # things undone (2)
 Opcode they behaves not as documented one backdoor test is undone.
+In the case, we need complicated invariant structure to test them.
 
 # what we suppose
 We suppose the case compiler, shell itself, wc, echo, grep, cat command and file operations,
