@@ -15,6 +15,10 @@ and ring minus ... operation modes in firmwares on amd64.
 # things undone (2)
 Opcode they behaves not as documented one backdoor test is undone.
 
+# what we suppose
+We suppose the case compiler, shell itself, wc, echo, grep, cat command and file operations,
+and execution space are NOT infected. Otherwise, the test fails nor the test returns broken results.
+
 # Tips
 This can causes floating point operation on the cpu to be broken because of some internal state
 that to be permanent change. (Tested with one of ryzen processor, the float operation to be broken
