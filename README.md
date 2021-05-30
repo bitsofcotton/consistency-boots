@@ -27,7 +27,7 @@ If we read them all source codes, we only trust compiler binary and system binar
 that we got and a part of whole computing hardwares. To check them, binary storage dumper
 and reading whole binaries is needed in surface, but in deeply, if hardwares cannot be
 trusted with some codes in the CPU, it fails. (If the CPU has a backdoor but isn't had
-malicious codes on CPU itself, with reading boot firmware binaries can reduce them.)
+malicious codes on CPU itself, with reading boot firmware binaries, we can reduce them.)
 
 # Tips
 This can causes floating point operation on the cpu to be broken because of some internal state
