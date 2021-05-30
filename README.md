@@ -26,7 +26,7 @@ condition with compiling some commands and rewrite some small amount of codes.
 If we read them all source codes, we only trust compiler binary and system binary itself
 that we got and a part of whole computing hardwares. To check them, binary storage dumper
 and reading whole binaries is needed in surface, but in deeply, if hardwares cannot be
-trusted with some codes in the CPU, it fails. (If the CPU has a backdoor but isn't have
+trusted with some codes in the CPU, it fails. (If the CPU has a backdoor but isn't had
 malicious codes on CPU itself, with reading boot firmware binaries can reduce them.)
 
 # Tips
