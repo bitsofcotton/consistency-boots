@@ -21,6 +21,14 @@ We suppose the case compiler, shell itself, wc, echo, grep, cat command and file
 and execution space, libc, libc++, crt, ld.so, and the command to view result are NOT infected.
 Otherwise, the test returns broken results.
 
+We can reduce this condition to compiler, shell, libc, crt and system file operation
+condition with compiling some commands and rewrite some small amount of codes.
+If we read them all source codes, we only trust compiler binary and system binary itself
+that we got and a part of whole computing hardwares. To check them, binary storage dumper
+and reading whole binaries is needed in surface, but in deeply, if hardwares cannot be
+trusted with some codes in the CPU, it fails. (If the CPU has a backdoor but isn't have
+malicious codes on CPU itself, with reading boot firmware binaries can reduce them.)
+
 # Tips
 This can causes floating point operation on the cpu to be broken because of some internal state
 that to be permanent change. (Tested with one of ryzen processor, the float operation to be broken
