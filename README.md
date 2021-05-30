@@ -29,7 +29,7 @@ and reading whole binaries is needed in surface, but in deeply, if hardwares can
 trusted with some codes in the CPU, it fails. (If the CPU has a backdoor but isn't had
 malicious codes on CPU itself, with reading boot firmware binaries, we can reduce them.)
 (If we compile system binary, if we are lucky, we only trust the starting compiler binary
-itself, but to compile compiler, we need the base system and compiler (bootstrap prob.).)
+itself, but to compile compiler, we need the base system and compiler (bootstrap problem.).)
 
 # Tips
 This can causes floating point operation on the cpu to be broken because of some internal state
