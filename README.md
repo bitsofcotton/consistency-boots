@@ -51,6 +51,9 @@ Nor, only for userland, if we can encrypt whole disk on the system, the infectio
 
 # Tips on firmwares
 If there's a malware on the firmwares, we cannot find that without glitches if CPU had crafted ones.
+But if the system we have isn't have extra memory to store/load/execute, it is observable by
+memory or time on out of the box. If memory case, memory has glitches. If time case, if there's
+kolmogorov complexity concerns, we need time counter out of the box.
 
 # Tips on buses
 The system must trust the connected buses to r/w memory on most x86 computers.
