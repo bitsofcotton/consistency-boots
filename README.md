@@ -1,6 +1,11 @@
 # consistency-boots
 Test op codes and returns it's ok or not.
 
+# XXX WARNING XXX:
+This can causes floating point operation on the cpu to be broken because of some internal state
+that to be permanent change. (Tested with one of ryzen processor, the float operation to be broken
+unexpected permanent result. So other CPUs can be. This causes my ryzen to be broken.)
+
 # Description
 Find some tirivial backdoor on the machine, but, this is NOT better find complex ones such like
 around memory cache, chained operations, process coherency, op code that handles some jmp,
@@ -30,11 +35,6 @@ trusted with some codes in the CPU, it fails. (If the CPU has a backdoor but isn
 malicious codes on CPU itself, with reading boot firmware binaries, we can reduce them.)
 (If we compile system binary, if we are lucky, we only trust the starting compiler binary
 itself, but to compile compiler, we need the base system and compiler (bootstrap problem.).)
-
-# Tips
-This can causes floating point operation on the cpu to be broken because of some internal state
-that to be permanent change. (Tested with one of ryzen processor, the float operation to be broken
-unexpected permanent result. So other CPUs can be.)
 
 # Tips on memory
 If only the memory is infected, some calculations nor datas to be broken if PIE with randomized.
