@@ -13,6 +13,10 @@ mal-op codes that not behaves as documented ones, nor worst case, adopted nor in
 
 prot.cc is for 64bit system.
 
+usr.py checks hash value between current directory and root directory, argv[1:] are ignored directories relative path.
+
+usrlocal.py is broken but checkes between /var/db/pkg/.../+CONTNETS and /usr/local on certain systems.
+
 # things undone.
 A ring0 tester is undone. There's many much cpu operation modes,
 and ring minus ... operation modes in firmwares on amd64.

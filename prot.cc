@@ -4,6 +4,7 @@
 #include <sys/syscall.h>
 #include <unistd.h>
 #include <assert.h>
+#include "/sys/arch/amd64/include/vmparam.h"
 
 void execTest(void) {
   return;
@@ -47,7 +48,7 @@ int main(int argc, char* argv[]) {
     break;
   case 5:
     std::cout << "read kernel .text" << std::endl;
-    bb = (char*)0xffffffff90000000;
+    bb = (char*)VM_MIN_KERNEL_ADDRESS;
     for(int64_t i = 0; i < len; i ++)
       std::cout << *(char*)(bb + i) << std::endl;
     break;
