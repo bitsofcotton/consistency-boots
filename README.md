@@ -90,3 +90,8 @@ size polynomial order.
 
 So with compilers on qemu base system on qemu base system might reduce some, but if both are infected, it's not optimistic.
 
+# Tips on bypass
+There's a possibility to bypass the infection effects if we cross-compile the binary into unknown (by infectioner)
+form in the infected systems' operation and read them by hand (especially in hex).
+This is because infection needs to infect such binary by first-look, so it's a hard problem without op-codes nor mnemonics,
+binary structures.
