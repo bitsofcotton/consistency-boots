@@ -94,4 +94,5 @@ So with compilers on qemu base system on qemu base system might reduce some, but
 There's a possibility to bypass the infection effects if we cross-compile the binary into unknown (by infectioner)
 form in the infected systems' operation and read them by hand (especially in hex).
 This is because infection needs to infect such binary by first-look, so it's a hard problem without op-codes nor mnemonics,
-binary structures.
+binary structures (if the system adds and hides some binary, the infectioner needs the table of op-codes, so if there's
+a auto analyser that detects compilers' mnemonic table, the compiler infected needs to add higher order infectino.)
