@@ -95,4 +95,8 @@ There's a possibility to bypass the infection effects if we cross-compile the bi
 form in the infected systems' operation and read them by hand (especially in hex).
 This is because infection needs to infect such binary by first-look, so it's a hard problem without op-codes nor mnemonics,
 binary structures (if the system adds and hides some binary, the infectioner needs the table of op-codes, so if there's
-a auto analyser that detects compilers' mnemonic table, the compiler infected needs to add higher order infectino.)
+a auto analyser that detects compilers' mnemonic table, the compiler infected needs to add higher order infection,
+so same logic, if the binary and cross-compiler is unknown, some loop leads us to increase compiler binary size
+because cross-compiler mnemonic is unknown, cross-compiled compiler binary needs to be added infection codes, then,
+re-cross-compiled compiler binary also needs to add infection codes if the infectioner doesn't have self infection
+code detection.)
