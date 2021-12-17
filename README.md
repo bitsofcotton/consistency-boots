@@ -106,4 +106,5 @@ If the computer we use has infected by rogue chips (some news sites insists the 
 the consistency on the whole softwares are not supported. This is because if there's a probe point on mem-cpu bus,
 any of the codes are injected and any of the addresses are read. Otherwise, onechip without i/o condition, the chip can
 sniff keyboards and is able to inject the keys, nor, the chip can see all the packets transferred, all the pixels displayed.
-So in that case, the computer is no use.
+So in that case, the computer is no use. To resist them, we can en/decrypt/sign/verify all the buses, but otherthan presharedkey
+with some long range, it's a illusion we call.
