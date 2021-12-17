@@ -100,3 +100,10 @@ so same logic, if the binary and cross-compiler is unknown, some loop leads us t
 because cross-compiler mnemonic is unknown, cross-compiled compiler binary needs to be added infection codes, then,
 re-cross-compiled compiler binary also needs to add infection codes if the infectioner doesn't have self infection
 code detection.)
+
+# Tips on rogue chips
+If the computer we use has infected by rogue chips (some news sites insists the probability on them before long years ago),
+the consistency on the whole softwares are not supported. This is because if there's a probe point on mem-cpu bus,
+any of the codes are injected and any of the addresses are read. Otherwise, onechip without i/o condition, the chip can
+sniff keyboards and is able to inject the keys, nor, the chip can see all the packets transferred, all the pixels displayed.
+So in that case, the computer is no use.
