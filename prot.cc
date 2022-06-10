@@ -36,7 +36,7 @@ int main(int argc, char* argv[]) {
   case 3:
     std::cout << "heap" << std::endl;
     bb = (char*)malloc(len);
-    for(int64_t i = 0; i < len; i ++)
+    for(int64_t i = 0; i < len * 8; i ++)
       bb[len + i] = 0x90;
     free(bb);
     break;
