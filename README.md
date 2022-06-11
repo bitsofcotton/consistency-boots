@@ -90,6 +90,9 @@ size polynomial order.
 
 So with compilers on qemu base system on qemu base system might reduce some, but if both are infected, it's not optimistic.
 
+# Tips on detection around system images
+If we can estimate all of the time they should spend, we can estimate whether there's mal code or not. In this meaning, system benchmark result explains some of them. However, to do so, we should estimate correct overhead and correct calculation amount.
+
 # Tips on bypass
 There's a possibility to bypass the infection effects if we cross-compile the binary into unknown (by infectioner)
 form in the infected systems' operation and read them by hand (especially in hex).
@@ -108,3 +111,4 @@ any of the codes are injected and any of the addresses are read. Otherwise, onec
 sniff keyboards and is able to inject the keys, nor, the chip can see all the packets transferred, all the pixels displayed.
 So in that case, the computer is no use. To resist them, we can en/decrypt/sign/verify all the buses, but otherthan presharedkey
 with some long range, it's a illusion we call.
+
