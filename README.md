@@ -112,3 +112,11 @@ sniff keyboards and is able to inject the keys, nor, the chip can see all the pa
 So in that case, the computer is no use. To resist them, we can en/decrypt/sign/verify all the buses, but otherthan presharedkey
 with some long range, it's a illusion we call.
 
+# Tips on n-machine condition
+If we have multiple machines they might have infected and not, we can instantly test them with raw packet send/receive log for all combinations for network (but this can slips the test), nor instantly test execution space integrity check by execute programs each of the machines and log differ.
+If one of their (hetero implementation) log nor data size for raw is differ, at least one of them are infected for normal programs.
+However, if the all machines are infected condition nor infection causes no behavior change, we cannot detect them.
+
+# There's a rumor
+There exists a rumor there's a self-copy special virus deep inside computer sometimes causes compile output to break. If the objective function of the virus is only the self-copy condition, disassemble nor so on can detect them but, if the virus has the objection they hides them nor objection they collects/sends the technical data to compete them with, the machine is useless enough for us (to compete with them on the machine causes make the virus stronger uttery causes any of the device will be infected.).
+
