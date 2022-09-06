@@ -7,6 +7,14 @@ bp = 0
 for line in sys.stdin:
   p = int(line.split(":")[- 2].split(".")[- 1])
   ports[p] += 1
-  if(p != bp): print(bp, ports[bp])
+  if(p != bp):
+    print(bp, ports[bp])
+    hp = {}
+    for pp in ports:
+      try:
+        hp[pp] += 1
+      except:
+        hp[pp] = 0
+    print(hp)
   bp = p
 

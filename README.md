@@ -116,8 +116,19 @@ with some long range, it's a illusion we call.
 If we have multiple machines they might have infected and not, we can instantly test them with raw packet send/receive log for all combinations for network (but this can slips the test), nor instantly test execution space integrity check by execute programs each of the machines and log differ.
 If one of their (hetero implementation) log nor data size for raw is differ, at least one of them are infected for normal programs.
 However, if the all machines are infected condition nor infection causes no behavior change, we cannot detect them.
-Instant udp smallest packet test is here (for serialized any packet detection), but to do correct test, we should use nmap alternative nor so on.
 
 # There's a rumor
 There exists a rumor there's a self-copy special virus deep inside computer sometimes causes compile output to break. If the objective function of the virus is only the self-copy condition, disassemble nor so on can detect them but, if the virus has the objection they hides them nor objection they collects/sends the technical data to compete them with, the machine is useless enough for us (to compete with them on the machine causes make the virus stronger uttery causes any of the device will be infected.).
+
+# De-infection possible methods
+If we have the compiler C source as
+    #define INTERPRETER_STAGE 0
+    #include ...
+    #undef INTERPRETER_STAGE
+    #define INTERPRETER_STAGE 1
+    #include ...
+    ...
+file, if we write and mix down one file one function condition with such compiler as C source (and check by hands), then, compile the many-layered compiler causes some clean result binary which can compile better result. This is because to infect them needs larger matrix size in randtools methods. If they infect them as a parts, since we're on one function binary condition, it is better harder to infect. Even they can infect them as small matched code structure part into a binary, simple algorithm can infect child edge of them, complicated algorithm infects all of them causes infection needs to look whole of the far codes concludes memory usage suspicious result (but this is slightly).
+Even so, if the i/o nor libc nor kernel is also infected condition, we need to compile and encryption lock key feed original source codes passed into the large compiler, and reboot. If the en/decryption alogrithm isn't infected by the i/o, libc, kernel, whole of the integrity will be re-insuranced.
+Below shows two of larger is stronger methods, first is infector code/memory usage vs. multiple layered clean compiler, second is en/decryption code key vs data amount. Also there's a hidden third method if the boot decryption algorithm is known or not.
 
