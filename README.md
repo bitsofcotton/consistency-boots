@@ -122,13 +122,18 @@ There exists a rumor there's a self-copy special virus deep inside computer some
 
 # De-infection possible methods
 If we have the compiler C source as
+
     #define INTERPRETER_STAGE 0
     #include ...
     #undef INTERPRETER_STAGE
     #define INTERPRETER_STAGE 1
     #include ...
     ...
+
 file, if we write and mix down one file one function condition with such compiler as C source (and check by hands), then, compile the many-layered compiler causes some clean result binary which can compile better result. This is because to infect them needs larger matrix size in randtools methods. If they infect them as a parts, since we're on one function binary condition, it is better harder to infect. Even they can infect them as small matched code structure part into a binary, simple algorithm can infect child edge of them, complicated algorithm infects all of them causes infection needs to look whole of the far codes concludes memory usage suspicious result (but this is slightly).
 Even so, if the i/o nor libc nor kernel is also infected condition, we need to compile and encryption lock key feed original source codes passed into the large compiler, and write them into boot block/kernel and reboot with encryption key from keyboard. If the en/decryption alogrithm isn't infected by the i/o, libc, kernel, whole of the integrity will be re-insuranced.
-Below shows two of larger is stronger methods, first is infector code/memory usage vs. multiple layered clean compiler, second is en/decryption code key vs data amount.
-However, even so, if all of the compiler, raw i/o operation is infected as a boot block code insertion, we need encrypted codes fight with infection.
+Below shows two of larger is stronger methods, first is infector code/memory usage vs. multiple layered clean compiler, second is en/decryption code key vs. data amount.
+However, even so, if all of the compiler, raw i/o operation is infected as a boot block code insertion, we need encrypted codes fight with infection. eg. en/decrypt multiple layers with relocaation address and program entity. This is because boot loader only has a binary codes, so code insertion might pretend as dummy decryptor nor enter/leave. Enter/leave is avoidable because hard relocation and no return code jmp/call. The dummy code and dummy decryptor condition is not avoidable with small tricks even then. So we should choose new prng/en/decryption algorithm, so we can use randtools loop for them. This is the second larger is stronger method complement.
+But for whole de-infection methods has a possibility only to erase same or more strict priviledge than boot priviledges. So if the lower priviledge software and independent from the core exists, we cannot avoid them at all.
+Especially, if the lower priviledge softwares connects the internet and cloud attackers, even the method below can be bypassed. So we should ideally try them all in a electromagnetic anechoic chamber.
+
