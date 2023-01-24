@@ -137,3 +137,7 @@ However, even so, if all of the compiler, raw i/o operation is infected as a boo
 But for whole de-infection methods has a possibility only to erase same or more strict priviledge than boot priviledges. So if the lower priviledge software and independent from the core exists, we cannot avoid them at all.
 Especially, if the lower priviledge softwares connects the internet and cloud attackers, even the method below can be bypassed. So we should ideally try them all in a electromagnetic anechoic chamber.
 
+# Unknown state chase
+However, if the binary, mnemonic, source triplet is provided from one issuer, they can implant the codes resist from such de-infection methods.
+So we should use unknown source codes includes unknown states on them (s.t. cryption key).
+
