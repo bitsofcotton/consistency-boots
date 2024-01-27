@@ -148,3 +148,11 @@ So paranoid of the binary should test the binary before to each use.
 However, to effect such of them, we (?) with the computer (?) or the out of the calculation space should have to utilize many much of computation power into effect. Normally, we don't need to think about it.
 Either, the computer have the checksum to compete with some errors, this causes make difficult to effect such methods.
 
+# Tips on possible readability
+We can do the repository with some of the .sh files and some of the assembler binary and connect to some preceding results on compiler/interpreter they're readable possible enough.
+However even so, some of the big brother who pretends like an attacker could watch all of our result and jam out us without electro magnetic dark room nor the trustworthy computer hardware implementation.
+
+# Tips on the attack on abstract observation layer
+Even so, we cannot avoid at all the observation layer based attack which slips the combination of the structure unobserved on some of the size.
+If we're lucky enough, we might avoid them with possible small binary implementaiton with possible large check hash they fixes the parallel part on the constraints with computer algorithms on such condition optimization, but in general, also the intention is able to be larger than them.
+
