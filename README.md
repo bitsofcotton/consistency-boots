@@ -152,6 +152,8 @@ Either, the computer have the checksum to compete with some errors, this causes 
 We can do the repository with some of the .sh files and some of the assembler binary and connect to some preceding results on compiler/interpreter they're readable possible enough.
 However even so, some of the big brother who pretends like an attacker could watch all of our result and jam out us without electro magnetic dark room nor the trustworthy computer hardware implementation.
 
+This also mean: if our environment is watched (and controlled) by the big brothers, to get complete infection free binary with infected environment insists us arduousness on non-connectivity with network and physical security. We cannot have them because of the condition we live, so we keep away with complete our effort on them.
+
 # Tips on the attack on abstract observation layer
 Even so, we cannot avoid at all the observation layer based attack which slips the combination of the structure unobserved on some of the size.
 If we're lucky enough, we might avoid them with possible small binary implementaiton with possible large check hash they fixes the parallel part on the constraints with computer algorithms on such condition optimization, but in general, also the intention is able to be larger than them.
