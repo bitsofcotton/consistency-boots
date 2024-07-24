@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
   case 1:
     std::cout << "libc" << std::endl;
     for(int64_t i = 0; i < len; i ++)
-      *(char*)((uint64_t)(void*)syscall + i) = 0x90;
+      *(char*)((uint64_t)(void*)exit + i) = 0x90;
     break;
   case 2:
     std::cout << "stack" << std::endl;
@@ -58,9 +58,9 @@ int main(int argc, char* argv[]) {
       std::cout << *(char*)((uint64_t)(void*)main + i) << std::endl;
     break;
   case 7:
-    std::cout << "read libc" << std::endl;
+    std::cout << "read libc :" << std::hex << (void*)main << std::endl << (void*)exit << std::endl;
     for(int64_t i = 0; i < len; i ++)
-      std::cout << *(char*)((uint64_t)(void*)syscall + i) << std::endl;
+      std::cout << (*(int*)((uint64_t)(void*)exit + i) & 0xff) << std::endl;
     break;
   case 8:
     std::cout << "execution stack" << std::endl;
@@ -81,6 +81,9 @@ int main(int argc, char* argv[]) {
       et();
     }
     free(bb);
+    break;
+  case 10:
+    __asm__ ("movl $1, %eax; movq %rcx, %r10; syscall;");
     break;
   default:
     assert(0 && "no such method.");
